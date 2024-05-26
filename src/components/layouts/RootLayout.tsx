@@ -1,7 +1,7 @@
 'use client'
 
-import { Box } from '@chakra-ui/react'
 import { notoSansJp } from '@/styles/fonts'
+import { Box } from '@chakra-ui/react'
 
 import CustomProviders from '@/app/custom-providers'
 

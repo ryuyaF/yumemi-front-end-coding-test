@@ -17,9 +17,5 @@ function ChakraProviders({ children }: ChakraProvidersProps) {
 }
 
 export default function CustomProviders({ children }: ChakraProvidersProps) {
-  return (
-    <ChakraProviders>
-      {children}
-    </ChakraProviders>
-  )
+  return <ChakraProviders>{children}</ChakraProviders>
 }
